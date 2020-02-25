@@ -1,0 +1,3 @@
+make.exe -f "C:\Users\Cida\Desktop\programs\#11C++Programs\MicroC\Dll_Test\Makefile.win" all
+g++.exe -c dllmain.cpp -o dllmain.o -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include"  -DBUILDING_DLL=1 
+dllwrap.exe --output-def libmcx01.def --driver-name c++ --implib libmcx01.a dllmain.o  -L"C:/Dev-Cpp/lib" --no-export-all-symbols --add-stdcall-alias  -o mcx01.dll

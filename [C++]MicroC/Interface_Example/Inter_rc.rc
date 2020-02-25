@@ -1,0 +1,24 @@
+#include "main.h"
+
+A ICON MOVEABLE PURE LOADONCALL DISCARDABLE "Inter.ico"
+
+MeuMenu MENU {
+	POPUP "&Arquivo"{
+		MENUITEM "&Novo", NOVO
+		MENUITEM "&Abrir...", ABRIR
+		MENUITEM "&Salvar", SALVAR
+		MENUITEM "&Salvar como...", SALVARCOMO
+		MENUITEM SEPARATOR
+		MENUITEM "&Configurar Pagina...", CONFIGPAGE
+		MENUITEM "&Imprimir...", IMPRIMIR
+		MENUITEM "&Editor", EDITOR
+		MENUITEM SEPARATOR
+		MENUITEM "&Sair", SAIR
+	}
+}
+
+EditorMenu MENU {
+	POPUP "&File"{
+		MENUITEM "&New", NOVO
+	}
+}

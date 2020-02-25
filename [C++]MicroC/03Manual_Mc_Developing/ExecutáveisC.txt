@@ -1,0 +1,6 @@
+Executáveis C
+
+make.exe - Executar o codigo MakeFile arquivo (.win)
+rm.exe - definir formato
+windres.exe - compilar o arquivo de recursos de (.rc) para (.res)
+

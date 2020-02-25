@@ -1,0 +1,5 @@
+; dlltool --base-file C:\Users\Cida\AppData\Local\Temp/cca01672.base --output-exp mcx01.exp --dllname mcx01.dll --output-def libmcx01.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\Users\Cida\AppData\Local\Temp/cca01672.def --output-lib libmcx01.a
+EXPORTS
+	input @ 1
+	showTill @ 2
+	HelloWorld @ 3

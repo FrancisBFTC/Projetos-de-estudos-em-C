@@ -1,0 +1,9 @@
+Compilador: Default compiler
+Building Makefile: "C:\Users\Cida\Desktop\programs\#11C++Programs\MicroC\Makefile.win"
+Executando  make...
+make.exe -f Makefile.mak all
+g++.exe -c main.cpp -o main.o -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include"   
+windres.exe -i MicroC_private.rc --input-format=rc -o MicroC_private.res -O coff 
+g++.exe main.o MicroC_private.res -o "MicroC.exe" -L"C:/Dev-Cpp/lib"  
+Execução terminada
+Compilação bem sucedida
